@@ -18,7 +18,7 @@ html
 .outer > h1 {
   display: table-cell;
   height: 100px;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: center;
 }
 .title
