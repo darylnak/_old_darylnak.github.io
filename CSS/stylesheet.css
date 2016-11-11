@@ -8,11 +8,70 @@ body
   background: #FFF;
 }
 
+.navigation
+{
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  border-top: 1px solid #636363;
+  font-size: 10px;
+}
+
+.archive
+{
+  text-decoration: underline;
+}
+
+.archive-mini-spacer
+{
+  padding-top: 25px;
+}
+
+.navigation a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: inherit;
+}
+.mini-nav-bar
+{
+  background: #FFF;
+  margin-top: 0;
+  box-shadow: 0px 1px 3px #888;
+  position: fixed;
+  width: 100%;
+}
+.mini-nav-items
+{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mini-navigation a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.mini-spacer
+{
+  padding-top: 20px;
+}
+
+/*.navigation > div
+{
+  display: table-cell;
+  height: 100px;
+  vertical-align: top;
+  text-align: center;
+}*/
+
 .body_font
 {
   font-family: 'Libre Franklin', sans-serif;
   max-width: 100%;
 }
+
 
 .heading
 {
@@ -42,11 +101,18 @@ body
   letter-spacing: 2px;
 }
 
-.spacer
+.nav-spacer
 {
   margin: auto;
   text-align: center;
-  padding-top: 70px;
+  top: 60px;
+}
+
+.body-spacer
+{
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
   padding-bottom: 10px;
   margin-bottom: 0px;
 }
@@ -62,6 +128,17 @@ body
 .entry
 {
   margin-bottom: 10px;
+}
+
+.cv
+{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cv a
+{
+  text-decoration: underline;
 }
 
 #practice
