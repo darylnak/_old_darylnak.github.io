@@ -162,6 +162,11 @@ body
   text-decoration: underline;
 }
 
+#main-head
+{
+  position: static;
+}
+
 #practice
 {
   font-weight: bolder;
