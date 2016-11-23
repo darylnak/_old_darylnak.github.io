@@ -89,6 +89,7 @@ body,html
 .daryl
 {
   font-family: 'Work Sans', sans-serif;
+  display: inline-block;
   padding-left: 20px;
   font-size: 30px;
   color: #FFF;

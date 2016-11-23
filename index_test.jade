@@ -3,11 +3,13 @@ doctype html
 html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')   
-    link(href='CSS/stylesheet_test.css', rel='stylesheet', type='text/css')  
+    link(href='CSS/stylesheet_test.css', rel='stylesheet', type='text/css')
+    link(rel='stylesheet' href='CSS/animate.css') 
     link(href='https://fonts.googleapis.com/css?family=Work+Sans:500&subset=latin-ext', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Raleway', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet')
-    script(type='text/javascript' src='scripts/nav.js')
+    script(type='text/javascript' src='scripts/jquery-3.1.1.min.js')
+    script(type='text/javascript' src='scripts/test.js')
     title Daryl N.
   body
     .container
@@ -18,7 +20,8 @@ html
           span#archive Archive
       #first.background
         .align-vert
-          img.me-border(src='./images/me.jpg', alt='A picture of me is suppose to be here', style='width:240px;height:240px;')
-          span.daryl Hi, I'm Daryl
+          a(href='index_test.html')
+            img.me-border.animated.bounceIn(src='./images/me.jpg', alt='A picture of me is suppose to be here', style='width:240px;height:240px;')
+          span.daryl.animated.bounceIn Hi, I'm Daryl
       #second.background
         p.align-vert This is my personal website
