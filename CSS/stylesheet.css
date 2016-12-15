@@ -153,6 +153,11 @@ body
   text-decoration: underline;
 }
 
+.name
+{
+  text-align: center;
+}
+
 #main-head
 {
   position: static;
