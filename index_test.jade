@@ -4,25 +4,27 @@ html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')   
     link(href='CSS/stylesheet_test.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet')
     link(rel='stylesheet' href='CSS/animate.css') 
     link(href='https://fonts.googleapis.com/css?family=Work+Sans:500&subset=latin-ext', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Raleway', rel='stylesheet')
     script(type='text/javascript' src='scripts/jquery-3.1.1.min.js')
     script(type='text/javascript' src='scripts/animation.js')
+    script(type='text/javascript' src='scripts/nav.js')
     title Daryl N.
   body
     .container
-      .navbar
-        .nav-text
-          span#home
-            a(href='index_test.html') Home
-          span#archive Archive
       #first.background
         .align-vert
           img#me-pic.me-border.animated.bounceIn(src='./images/me.jpg', alt='A picture of me is suppose to be here', style='width:240px;height:240px;')
           span.daryl.animated.bounceIn Hi, I'm Daryl
-        .learn-more
+        #test.learn-more.bounce
+          p V
           
       script(type='text/javascript' src='scripts/test.js')
       #second.background
-        p.align-vert This is my personal website
+        p#personal-txt This is my personal website
+          a(href="https://stackoverflow.com/cv/darylnak" target="_blank")
+            .button.float
+              p Resume
+        p#construc.align-vert Though much is not here, you can find information about me above. Check it out while I continue working on the site!

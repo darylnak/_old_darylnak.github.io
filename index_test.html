@@ -3,25 +3,30 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/stylesheet_test.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="CSS/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:500&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="scripts/animation.js"></script>
+    <script type="text/javascript" src="scripts/nav.js"></script>
     <title>Daryl N.</title>
   </head>
   <body>
     <div class="container">
-      <div class="navbar">
-        <div class="nav-text"><span id="home"><a href="index_test.html">Home</a></span><span id="archive">Archive</span></div>
-      </div>
       <div id="first" class="background">
         <div class="align-vert"><img id="me-pic" src="./images/me.jpg" alt="A picture of me is suppose to be here" style="width:240px;height:240px;" class="me-border animated bounceIn"><span class="daryl animated bounceIn">Hi, I'm Daryl</span></div>
-        <div class="learn-more"></div>
+        <div id="test" class="learn-more bounce">
+          <p>V</p>
+        </div>
       </div>
       <script type="text/javascript" src="scripts/test.js"></script>
       <div id="second" class="background">
-        <p class="align-vert">This is my personal website</p>
+        <p id="personal-txt">This is my personal website</p><a href="https://stackoverflow.com/cv/darylnak" target="_blank">
+          <div class="button float">
+            <p>Resume</p>
+          </div></a>
+        <p id="construc" class="align-vert">Though much is not here, you can find information about me above. Check it out while I continue working on the site!</p>
       </div>
     </div>
   </body>

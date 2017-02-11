@@ -1,19 +1,6 @@
-$(function() {
-$('#home').hover(function() {
-    $('.fade').fadeIn();
-}, function() {
-    $('.fade').fadeOut();
-});
-});
-
-var addclass = 'fade';
-var $cols = $('#home').click(function(e) {
-    $cols.removeClass(addclass);
-    $(this).addClass(addclass);
-});
-
-var addclass = 'fade';
-var $cols = $('#archive').click(function(e) {
-    $cols.removeClass(addclass);
-    $(this).addClass(addclass);
+$(window).scroll(function(){
+  $(".learn-more").css("opacity", 1 - $(window).scrollTop() / 700);
+  $("#personal-txt").css("opacity", 0 + $(window).scrollTop() / 600);
+  $(".button").css("opacity", 0 + $(window).scrollTop() / 600);
+  $("#construc").css("opacity", 0 + $(window).scrollTop() / 600);
 });
